@@ -1,7 +1,7 @@
 import { FaUser } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom'; // For detecting current route
-import logo from "./src/components/assets/logo.png";
+import logo from "./components/assets/logo.png";
 
 const Navbar = () => {
   const location = useLocation();
