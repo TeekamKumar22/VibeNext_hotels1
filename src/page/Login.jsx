@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import axios from 'axios'
 import{ useAuth } from '../context/UserContext';
-import BannerImage from './assets/homepagg.jpg';
 
 
 function Login() {
@@ -77,11 +76,10 @@ function Login() {
 
   return (
     <div
-          className="flex items-center justify-center min-h-screen w-full bg-cover bg-center fixed"
-          style={{ backgroundImage: `url(${BannerImage})` }}
+          className="flex items-center justify-center min-h-screen w-full bg-transparent fixed"
         >
           <div className="absolute inset-0 bg-black opacity-45"></div>
-          <div ref={h2Ref} className={`relative z-10 w-full max-w-xs sm:max-w-sm mt-12 md:max-w-md lg:max-w-sm bg-transparent backdrop-blur-sm shadow-md rounded-lg p-4 sm:p-6 border border-gray-300 mx-2transition-all duration-700
+          <div ref={h2Ref} className={`relative z-10 w-full max-w-xs sm:max-w-sm mt-12 md:max-w-md lg:max-w-sm bg-white backdrop-blur-sm shadow-md rounded-lg p-4 sm:p-6 border border-gray-300 mx-2transition-all duration-700
               ${h2Visible
                 ? 'opacity-100 translate-x-0'
                 : 'opacity-0 -translate-y-16 scale-95'}`}>
