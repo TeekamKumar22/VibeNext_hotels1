@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
 import axios from 'axios'
 import{ useAuth } from '../context/UserContext';
-import BannerImage from '../assets/homepage.1.jpg';
+import BannerImage from './assets/homepagg.jpg';
 
 
 function Login() {
