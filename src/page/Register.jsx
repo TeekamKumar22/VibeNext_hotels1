@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import BannerImage from '../assets/homepage.1.jpg';
+import BannerImage from './assets/homepagg.jpg';
 
 const Register = () => {
   const [name, setName] = useState('');
