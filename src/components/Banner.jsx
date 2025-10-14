@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa';
-import BannerImage from './components /assets/homepagg.jpg';
+import BannerImage from './components/assets/homepagg.jpg';
 
 const Banner = () => {
   const bannerRef = useRef(null);
