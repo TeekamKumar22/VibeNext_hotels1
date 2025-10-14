@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import logo from '../assets/Logo..png';
+import logo from '../assets/Logo.png';
 // import  insta from 
 
 const Footer = () => {
